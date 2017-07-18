@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.shivamdev.beaconpoc.features.beacon.nurse.NurseActivity">
+
+    <EditText
+        android:id="@+id/et_patient_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="@string/enter_patient_id"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/et_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:gravity="bottom"
+        android:hint="@string/enter_desc"
+        android:lines="5"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/b_book_porter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/book_porter" />
+
+</LinearLayout>
